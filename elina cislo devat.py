@@ -13,8 +13,7 @@ cislo = 0
 zastavky = []
 
 def nacitanie(): #funkcia na nacitanie info zo suboru
-    #cyklus na prechadzanie riadkov v subore
-    for riadok in subor:
+    for riadok in subor: #cyklus na prechadzanie riadkov v subore
         #vymazanie prazdnych znakov
         riadocek = riadok.strip()
 
